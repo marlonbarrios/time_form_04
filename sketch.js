@@ -36,7 +36,8 @@ canvasSketch(() => {
     width,
     height
   }) => {
-background(0);
+background(255);
+noStroke();
 
 let hr = hour();
 let mn = minute();
